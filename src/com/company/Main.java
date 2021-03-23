@@ -41,7 +41,10 @@ class Task {
     public void setupTask() {
         System.out.println("Делает задачу!");
     }
+        public void superMethod(){
+            System.out.println("Набор задач (Task) - класс в котором хранится 2 строки ( задача и срок задачи) мы размещаем задачи в 1 стек и с помощью трех потоков (работников) решаем задачи");
 
+        }
 
 }
 
